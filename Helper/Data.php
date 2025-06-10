@@ -1,6 +1,6 @@
 <?php
 
-namespace Navin\BugBotDemo\Block;
+namespace Navin\BugBotDemo\Helper;
 
 class Data extends AbstractHelper
 {
