@@ -10,5 +10,9 @@ class Data extends AbstractHelper
         parent::__construct($context);
     }
 
+    protected function getStore()
+    {
+        return array("Store 1", "Store 2", "Store 3");
+    }
 
 }
