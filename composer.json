@@ -1,0 +1,22 @@
+{
+    "name": "navin/module-bugbotdemo",
+    "description": "bug_bot_demo",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Navin D Bhudiya",
+            "email": "navindbhudiya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Navin\\BugBotDemo\\": ""
+        }
+    }
+}
