@@ -1,0 +1,10 @@
+<?php
+
+$stores = $this->helper('Navin\BugBotDemo\Helper\Data')->getStore();
+?>
+<ul class="store-list">
+    <?php
+    foreach ($stores as $store) {
+        echo '<li>' . $store->getName() . '</li>';
+    } ?>
+</ul>
