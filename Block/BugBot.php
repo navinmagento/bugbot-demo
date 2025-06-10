@@ -13,8 +13,4 @@ class BugBot
         return $product;
     }
 
-    public function getProductBySku($sku){
-        $product = $this->_productRepository->getById($sku);
-        return $product;
-    }
 }
